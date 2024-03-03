@@ -1,0 +1,36 @@
+.music_banner{
+    width: 400px;
+    height: 400px;
+}
+.music_banner img {
+    object-fit: cover;
+    height: 100%;
+    border-radius: 0px;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.tracklist{
+    margin-bottom: 150px;
+}
+.tracklist_title{
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+}
+.tracklist_container{
+   max-width: 800px;
+   width: 100%;
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: 30px;
+   border-top: 1px solid black;
+   border-bottom: 1px solid black;
+   padding: 35px 20px;
+}
+.tracklist_item div{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    align-items: center;
+}

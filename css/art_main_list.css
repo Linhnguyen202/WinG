@@ -1,0 +1,104 @@
+.arts_container{
+    position: relative;
+}
+.arts_container.content-item_container{
+    padding-bottom: 70px;
+}
+.category_container{
+    margin-top: 30px;
+}
+.row_category{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.category_item{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.category_item{
+    height: 100%;
+    display: flex;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    justify-content: flex-start;
+    background-color: #fcffa4 ; 
+}
+.category_item span{
+    flex: 1;
+    text-align: center;
+    padding: 0 20px;
+}
+.category_item.no_image{
+    display: inline-block;
+    align-items: center;
+    color: black;
+    padding: 15px 20px;
+    border-radius: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #fcffa4 ;
+}
+.row_arts_image{
+    margin-top: 40px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   grid-row-gap: 20px;
+   grid-column-gap: 20px;
+}
+.row_arts_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.arts_grid_item:first-child{
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+.arts_grid_item:nth-child(2){
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.arts_grid_item:nth-child(3){
+    grid-column: 3/4;
+    grid-row: 1/3;
+}
+.arts_grid_item:nth-child(4){
+    grid-column: 4/5;
+    grid-row: 1/4;
+}
+.arts_grid_item:nth-child(5){
+    grid-column: 5/6;
+    grid-row: 1/3;
+}
+.arts_grid_item:nth-child(6){
+    grid-column: 1/2;
+    grid-row: 4/6;
+}
+.arts_grid_item:nth-child(7){
+    grid-column: 2/3;
+    grid-row: 2/5;
+}
+.arts_grid_item:nth-child(8){
+    grid-column: 3/4;
+    grid-row: 3/6;
+}
+.arts_grid_item:nth-child(9){
+    grid-column: 4/5;
+    grid-row: 4/6;
+}
+.arts_grid_item:nth-child(10){
+    grid-column: 5/6;
+    grid-row: 3/6;
+}
+.arts_grid_item:nth-child(11){
+    grid-column: 2/3;
+    grid-row: 5/6;
+}

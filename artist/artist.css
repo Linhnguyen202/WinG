@@ -1,0 +1,46 @@
+.artist_profile{
+    padding: 20px;
+}
+.artist_profile_sub{
+    padding: 0px 20px;
+}
+.artist_profile_title{
+    font-size: 50px;
+}
+.artist_debut_title{
+    font-size: 30px;
+}
+.artist_profile_sub_title{
+    font-size: 25px;
+    color: red;
+    margin: 10px 0px;
+    display: inline-block;
+}
+.profile_item{
+    margin-top: 5px;
+}
+.profile_item div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 30px;
+}
+.profile_list{
+    display: flex;
+    gap: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.profile_title_item span{
+    color: red;
+}
+.profile_title_item{
+    margin-bottom: 10px;
+}
+.profile_value_item{
+    margin-bottom: 10px;
+}
+.content-item_container h1{
+    font-size: 60px;
+}

@@ -1,0 +1,19 @@
+.albums_list_container{
+    margin: 40px 100px;
+}
+.albums_card{
+    padding: 0 20px;
+}
+.albums_card_content{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 20px 0px;
+}
+.albums_card_content h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+.albums_card_content span{
+    font-size: 14px;
+}

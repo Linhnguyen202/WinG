@@ -1,0 +1,48 @@
+.contact_container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 25px;
+    padding-left: 80px;
+    padding-right: 50px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: white
+;
+  
+}
+.phone_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+
+}
+.phone_container div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.phone_container .question_title span{
+    color: gray;
+}
+.social_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 15%;
+    font-size: 14px;
+}
+.flag_item{
+    margin-left: 30px;
+}
+.flag_item img{
+    width: 25px;
+    height: 18px ;
+}
